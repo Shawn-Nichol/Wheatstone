@@ -4,9 +4,15 @@
 You will need to create a subroutine for each SS8 button 
 
 ```
+
+variable: vStage = 0
+variable: vSubStage
+variable: vBTNColorText
 variable: vBTNColorBackground
 variable: vBTNTextTop
 variable: vBTNTextBot
+
+cal 
 /*
  * DisplaysBTN6: Displays the information on BTN 4
  *	@Parameter $1 TextColor 
