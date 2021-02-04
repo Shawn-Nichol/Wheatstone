@@ -22,7 +22,7 @@ subroutine: ConfirmConnection{
       }
 }
 ```
-
+```
 /*
  * ConfirmDisconnect: disconnects destination from source.
  * 	Parameter $1 destination signal.
