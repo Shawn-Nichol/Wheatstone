@@ -1,5 +1,5 @@
 # How to connect a source
-
+```
 /*
  * ConnectionTest: Test connection to runs and prints results.
  * 	Parameter $1 destination signal.
@@ -21,7 +21,7 @@ subroutine: ConfirmConnection{
         print("connection failed")
       }
 }
-
+```
 
 /*
  * ConfirmDisconnect: disconnects destination from source.
@@ -43,3 +43,4 @@ subroutine: ConfirmDisconnect{
         print("    Disconnect failed " # vDestination )
     }
 } 
+```
